@@ -1,0 +1,63 @@
+.cv-section {
+  background-color: white;
+
+  padding: 25px;
+  margin-bottom: 20px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cv-section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  width: fit-content;
+
+  border: none;
+  border-radius: 5px;
+
+  padding: 10px 20px;
+
+  background-color: #222;
+  color: white;
+
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
